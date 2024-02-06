@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#101111;
+    color: #f1f1f1;
+    font-family: 'roboto';
+    overflow-x: hidden;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:8%;
+}
+
+.name{
+    font-family: 'roboto medium';
+    font-size: 40px;
+    text-align: center;
+}
+
+.text{
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 45px;
+    width:30rem;
+    height: 35px;
+    margin-top: 70px;
+    color: #f1f1f1;
+    
+}
+
+.text::placeholder{
+    padding-left: 10px;
+}
+
+.messagebox{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.sendbutton{
+    background-color: transparent;
+    border: none;
+    margin-left: 12px;
+    margin-top:70px;
+    color: #f1f1f1;
+    cursor: pointer;
+    font-family:'roboto regular';
+    font-size: 15px;
+}
+
+.sendbutton:hover{
+    opacity: 0.8;
+}
+
+.container{
+    height: 100px;
+    
+}
+
+.bot{
+    display: flex;
+    align-items: center;
+}
+
+.left{
+    margin: 10;
+    padding: 5;
+}
+
+.response, .request{
+    padding-left:50px;
+    font-family:'roboto light';
+    width: 90%;
+    text-align: justify;
+    line-height: 25px;
+    transition: 2s ease;
+}
+
+.logoo{
+    animation: scale 4s  ease-in-out;
+    animation-delay: 1s;
+}
+
+@keyframes scale {
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.5);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+
+.display{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family:'roboto medium';
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.preset1{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #f1f1f1;
+    margin-left: 30px;
+    width: 20%;
+    cursor: pointer;
+}
+
+.js-preset-1{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #f1f1f1;
+    margin-left: 30px;
+    width: 20rem;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+    white-space: nowrap;
+}
+
+.js-preset-2{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #f1f1f1;
+    margin-left: 30px;
+    width: 20rem;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+    white-space: nowrap
+}
+
+.js-preset-3{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #f1f1f1;
+    margin-left: 30px;
+    width: 20rem;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+    white-space: nowrap
+}
+
+.js-preset-4{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #f1f1f1;
+    margin-left: 30px;
+    width: 20rem;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+    white-space: nowrap
+}
+
+.js-preset-1:hover,.js-preset-2:hover,.js-preset-3:hover,.js-preset-4:hover{
+    opacity: 0.5;
+}
+
+.bot-profile{
+    display: inline;
+}
+
+.bot-name{
+font-family: 'roboto regular';
+}
+
+.new-margin{
+    margin-top: 20%;
+}
+
+.main{
+    display: none; 
+}
+
+.response{
+    animation: display-response 4s ease-in-out;
+    height: 10px;
+}
+
+@keyframes display-response{
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 0.5;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: rgb(57, 57, 155);
+}

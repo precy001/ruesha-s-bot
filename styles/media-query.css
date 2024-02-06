@@ -1,0 +1,33 @@
+@media(max-width:831px){
+    .text{
+        margin-top: 120px;
+    }
+
+    .sendbutton{
+        margin-top: 120px;
+    }
+}
+@media(max-width:536px){
+    .js-preset-1,.js-preset-2,.js-preset-3,.js-preset-4{
+        width: 15rem;
+    }
+}
+
+@media(max-width:526px){
+    .js-preset-3,.js-preset-4{
+        display: none;
+    }
+
+    .display{
+        flex-direction: column;
+    }
+
+    .js-preset-1,.js-preset-2{
+        margin-bottom: 20px;
+        width: 20rem;
+    }
+
+    .text{
+        width: 25rem;
+    }
+}
